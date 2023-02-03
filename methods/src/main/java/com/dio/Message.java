@@ -6,7 +6,6 @@ public class Message {
     static final int HOUR_TO_FINISH_NIGHT = 24;
 
     public static void getMessage(int hour) {
-
         if (hour <= HOUR_TO_FINISH_MORNING) {
             System.out.println("Good Morning");
         } else if (hour <= HOUR_TO_FINISH_AFTERNOON) {
